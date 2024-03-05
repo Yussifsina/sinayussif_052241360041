@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style type="text/css">
+        body{background-color: rgb(196, 148, 192);
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/style.css"></link>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">MAIN PAGE</a></li>
+            <li><a href="faculty.html">FACULTY PAGE</a></li>
+            <li><a href="Department.html">DEPARTMENT PAGE</a></li>
+            <li><a href="timetable.html"> TIMETABLES PAGE</a></li>
+            <li><a href="Registration.html">REGISTRATION PAGE</a></li>
+            <li><a href="payment.html">PAYMENT PAGE</a></li>
+        </ul>
+    </nav>
+    <h1>WELCOME TO THE REGISTRATION PAGE</h1>
+</br>
+<h2>FILL THIS FORM</h2>
+<form action="sample-page-handler.html" method="GET"></form>
+    <input type="text"name="STUDENT NUMBER" placeholder="STUDENT NUMBER"/> STUDENT NUMBER<br/>
+    <input type="text"name="FIRST NAME" placeholder="FIRST NAME"/> FIRST NAME<br/>
+    <input type="text"name="LAST NAME" placeholder="LAST NAME"/> LAST NAME<br/>
+    <input type="text"name="DATE OF BIRTH" placeholder="DATE OF BIRTH"/> DATE OF BIRTH<br/>
+    <input type="text"name="FACULTY" placeholder="FACULTY"/> FACULTY <br/>
+    <input type="text"name="DEPARTMENT" placeholder="DEPARTMENT"/> DEPARTMENT<br/>
+    <input type="text"name="TELEPHONE NUMBER" placeholder="TELEPHONE NUMBER"/> TELEPHONE NUMBER <br/>
+    <input type="text"name="ADDRESS" placeholder="ADDRESS"/> ADDRESS<br/>
+    <h2>UPLOAD YOUR PICTURE</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="avatar" accept="image/*">
+        <input type="submit" value="upload">
+        <input type="submit"/>
+       
+</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+a{
+    color: springgreen;
+    margin-right: 10px;
+    text-decoration: none;}
+    .custom-bg {
+        background-image: url("sina.jpg");
+        background-size: 300px 200px; /* Width x Height */
+    }
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(27, 26, 11);
+}
+
+ul li {
+    float: left;
+    margin: 10px;
+    display: flex;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+ 
+
+
+
+

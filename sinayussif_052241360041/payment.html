@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <style type="text/css">
+        body{background-color: rgb(205, 243, 66);
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/style.css"></link>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="index.html">MAIN PAGE</a></li>
+        <li><a href="faculty.html">FACULTY PAGE</a></li>
+        <li><a href="Department.html">DEPARTMENT PAGE</a></li>
+        <li><a href="timetable.html"> TIMETABLES PAGE</a></li>
+        <li><a href="Registration.html">REGISTRATION PAGE</a></li>
+        <li><a href="payment.html">PAYMENT PAGE</a></li>
+    </ul>
+</nav>
+<h1> WELCOME TO THE PAYMENT PAGE</h1>
+
+    <div class="container">
+        <form action="#">
+            <!-- Billing Address -->
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Billing Address</h3>
+                    <!-- Add input fields for name, email, address, city, state, and zip code -->
+                </div>
+                <div class="col">
+                    <h3 class="title">Payment</h3>
+                    <div class="inputBox">
+                        <label for="cardName">Name On Card:</label>
+                        <input type="text" id="cardName" placeholder="Enter card name" required>
+                    </div>
+                    <div class="inputBox">
+                        <label for="cardNum">Credit Card Number:</label>
+                        <input type="text" id="cardNum" placeholder="1111-2222-3333-4444" maxlength="19" required>
+                    </div>
+                    <!-- Add other relevant payment fields (expiration date, CVV, etc.) -->
+                    <button type="submit">Checkout</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
